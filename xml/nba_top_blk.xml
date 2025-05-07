@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <row>
+    <PLAYER_ID>1641705</PLAYER_ID>
+    <PLAYER>Victor Wembanyama</PLAYER>
+    <TEAM>SAS</TEAM>
+    <BLK>3.8</BLK>
+  </row>
+  <row>
+    <PLAYER_ID>1631117</PLAYER_ID>
+    <PLAYER>Walker Kessler</PLAYER>
+    <TEAM>UTA</TEAM>
+    <BLK>2.4</BLK>
+  </row>
+  <row>
+    <PLAYER_ID>1626167</PLAYER_ID>
+    <PLAYER>Myles Turner</PLAYER>
+    <TEAM>IND</TEAM>
+    <BLK>1.9</BLK>
+  </row>
+  <row>
+    <PLAYER_ID>201572</PLAYER_ID>
+    <PLAYER>Brook Lopez</PLAYER>
+    <TEAM>MIL</TEAM>
+    <BLK>1.9</BLK>
+  </row>
+  <row>
+    <PLAYER_ID>1629655</PLAYER_ID>
+    <PLAYER>Daniel Gafford</PLAYER>
+    <TEAM>DAL</TEAM>
+    <BLK>1.9</BLK>
+  </row>
+</data>

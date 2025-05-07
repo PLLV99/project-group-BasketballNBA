@@ -1,0 +1,99 @@
+.table {
+    margin-bottom: 0;
+  }
+  
+  .table thead th{
+    background: linear-gradient(135deg, var(--primary-color), #d2e8ff);
+    font-size: 1.1rem;
+    padding: 1rem 1.5rem;
+    color: #d2e8ff;
+    border-radius: 10px 10px 0 0 !important;
+  }
+
+  .table td {
+    vertical-align: middle;
+    padding: 1rem;
+  }
+  
+  .table a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .table a:hover {
+    color: #0b5ed7;
+    text-decoration: underline;
+  }
+  
+  .table tr:not(:last-child) {
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .table tr:hover {
+    background-color: rgba(13, 110, 253, 0.03);
+  }
+
+.team-logo-player {
+    width: 300px;
+    height: 250px;
+    object-fit: contain;
+}
+
+.team-logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+}
+
+.player-info {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.player-header {
+    background-color: rgba(0, 133, 202, 0.05);
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid var(--primary-color);
+}
+
+.player-detail {
+    font-size: 1.1rem;
+    margin-bottom: 0.6rem;
+    color: #333;
+}
+
+.player-detail strong {
+    color: var(--primary-color);
+    min-width: 80px;
+    display: inline-block;
+}
+
+.section-title {
+    position: relative;
+    padding-left: 1rem;
+    font-weight: 600;
+    border-left: 3px solid var(--primary-color);
+    color: #333;
+}
+
+#p_name {
+    color: var(--primary-color);
+    font-size: 2.2rem;
+    letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+    .team-logo-player {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+#teamLogoContainer {
+    margin-top: 0px;
+}

@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inria Sans', sans-serif !important;
+  line-height: 1.6;
+  padding-top: 80px; /* Adjust according to the navbar */
+}
+
+/* Main Container */
+main.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+main.container h1 {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  position: relative;
+  display: inline-block;
+}
+
+/* Schedule Table */
+#schedule {
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border: none;
+  width: 100%;
+}
+
+#schedule thead {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+#schedule th {
+  padding: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+#schedule td {
+  padding: 1rem;
+  vertical-align: middle;
+  text-align: center;
+  border-bottom: 1px solid #e9ecef;
+  transition: background-color 0.3s ease;
+}
+
+#schedule td img {
+  width: 45x;
+  height: 45px;
+  border-radius: 10%;
+}
+
+#schedule tbody tr:hover {
+  background-color: rgba(29, 66, 138, 0.05);
+}
+#schedule tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+#schedule td:nth-child(1) {
+  font-weight: 500;
+}
+#schedule td:nth-child(2) {
+  color: var(--primary-color);              
+}
+#schedule td:nth-child(3) {
+  color: var(--accent-color);
+}
+
+/* Footer */
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 2rem 1rem;
+}
+
+footer a {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: underline;
+}

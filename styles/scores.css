@@ -1,0 +1,145 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+/* Calendar header - horizontal layout */
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border-bottom: 2px solid #ccc;
+}
+
+/* Button styles for Prev and Next */
+#prev-month, #next-month {
+  font-size: 16px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #dcdcdc;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for buttons */
+#prev-month:hover, #next-month:hover {
+  background-color: #aaa;
+}
+
+/* Month title centered */
+.calendar-month {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+/* Calendar grid */
+#calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* 7 columns for a week */
+  gap: 10px; /* Space between the days */
+}
+
+.calendar-day {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px; /* Adjust the height as needed */
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+}
+
+.calendar-day:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Styling for match results and sections */
+#live-matches-section, #recent-matches-section, #upcoming-matches-section {
+  margin-top: 20px;
+}
+
+table.table {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+table.table th {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+table.table td {
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+table.table td img {
+  width: 45px;
+  height: 45px;
+  border-radius: 10%;
+}
+
+table.table tbody tr:hover {
+  background-color: blue (13, 110, 253, 0.03);
+}
+
+table.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table.table tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+table.table tbody tr:hover {
+  background-color: rgba(13, 110, 253, 0.03);
+}
+
+
+ul.list-group-item {
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.alert.alert-info {
+  background-color: var(--accent-color);
+  color: #fff;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+footer a {
+  color: #FDB927;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

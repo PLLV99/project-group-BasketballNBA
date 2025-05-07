@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scores - Coders Basketball</title>
+  <link rel="stylesheet" href="/styles/normalize.css">
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!-- bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="/styles/shared.css">
+  <link rel="stylesheet" href="/styles/scores.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark ">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="images/nba_logo.svg" alt="NBA Logo" class="navbar-logo me-2">
+        <span>Basketball Hub</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="homepage.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="scores.html">Scores</a></li>
+          <li class="nav-item"><a class="nav-link" href="schedule.html">Schedule</a></li>
+          <li class="nav-item"><a class="nav-link" href="standings.html">Standings</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-4">
+    <!-- Calendar Section -->
+    <section class="calendar-container mb-4">
+      <div class="calendar-header d-flex justify-content-between align-items-center mb-3">
+        <button id="prev-month" class="btn btn-outline-primary">&#9665; Prev</button>
+        <div class="calendar-month fs-4 fw-bold" id="current-month">February</div>
+        <button id="next-month" class="btn btn-outline-primary">Next &#9655;</button>
+      </div>
+      <div id="calendar" class="d-grid gap-2"></div>
+      <div id="schedule-results" class="mt-3"></div>
+    </section>
+
+
+    <!-- Live Matches Section -->
+    <section id="live-matches-section" class="mb-4">
+      <h2 class="mb-3">Live Scores</h2>
+      <div class="table-responsive">
+        <table class="table table-striped table-hover" id="live-matches-table">
+          <thead class="table-dark">
+            <tr>
+              <th>Date</th>
+              <th>Matchup</th>
+              <th>Score</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody id="live-matches">
+            <tr>
+              <td colspan="4" class="text-center">Loading live matches...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Recent Matches Section -->
+    <section id="recent-matches-section" class="mb-4">
+      <h2 class="mb-3">Recent Match Results</h2>
+      <div class="table-responsive">
+        <table class="table table-striped table-hover" id="recent-matches-table">
+          <thead class="table-dark">
+            <tr>
+              <th>Date</th>
+              <th>Matchup</th>
+              <th>Score</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody id="recent-matches">
+            <!-- Will be populated by JavaScript -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Upcoming Matches Section -->
+    <section id="upcoming-matches-section">
+      <h2 class="mb-3">Upcoming Games</h2>
+      <div class="table-responsive">
+        <table class="table table-striped table-hover" id="upcoming-matches-table">
+          <thead class="table-dark">
+            <tr>
+              <th>Date</th>
+              <th>Matchup</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody id="upcoming-matches">
+            <!-- Will be populated by JavaScript -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white py-3 text-center">
+    <div class="container">
+      <p>&copy; 2025 Basketball Hub. All rights reserved.</p>
+      <a href="#" class="text-white me-3">Privacy Policy</a>
+      <a href="#" class="text-white">Terms of Use</a>
+    </div>
+  </footer>
+
+  <!-- bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="Script/Score.js"></script>
+</body>
+
+</html>

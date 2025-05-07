@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inria Sans", sans-serif !important;
+  line-height: 1.6;
+  padding-top: 80px; /* Adjust according to the navbar */
+}
+
+/* Main Container */
+main.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+main.container h1 {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  position: relative;
+  display: inline-block;
+}
+h3.mt-3 {
+  padding: 0px;
+}
+/* Standings Table */
+#standings {
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border: none;
+  width: 100%;
+  font-weight: 600;
+  text-align: center;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+#standings thead {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+#standings th {
+  padding: 10px;
+  font-weight: 600;
+  text-align: center;
+}
+
+#standings td {
+  padding: 0px;
+  vertical-align: middle;
+  text-align: center;
+  border-bottom: 1px solid #e9ecef;
+  transition: background-color 0.3s ease;
+}
+#standings td img {
+  width: 40x;
+  height: 40px;
+  border-radius: 10%;
+  display: inline;
+}
+
+#standings tbody tr:hover {
+  background-color: rgba(29, 66, 138, 0.05);
+}
+#standings tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+#standings td:nth-child(1) {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+#standings td:nth-child(2){
+  font-weight: 500;
+  color: var(--primary-color);
+
+}
+#standings td:nth-child(3),
+#standings td:nth-child(4),
+#standings td:nth-child(5),
+#standings td:nth-child(6),
+#standings td:nth-child(7),
+#standings td:nth-child(8) {
+  font-weight: 500;
+}
+
+/* Footer */
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 2rem 1rem;
+}
+
+footer a {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: underline;
+}

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <row>
+    <PLAYER_ID>1630700</PLAYER_ID>
+    <PLAYER>Dyson Daniels</PLAYER>
+    <TEAM>ATL</TEAM>
+    <STL>3.0</STL>
+  </row>
+  <row>
+    <PLAYER_ID>1628983</PLAYER_ID>
+    <PLAYER>Shai Gilgeous-Alexander</PLAYER>
+    <TEAM>OKC</TEAM>
+    <STL>1.8</STL>
+  </row>
+  <row>
+    <PLAYER_ID>203999</PLAYER_ID>
+    <PLAYER>Nikola Jokić</PLAYER>
+    <TEAM>DEN</TEAM>
+    <STL>1.8</STL>
+  </row>
+  <row>
+    <PLAYER_ID>1630178</PLAYER_ID>
+    <PLAYER>Tyrese Maxey</PLAYER>
+    <TEAM>PHI</TEAM>
+    <STL>1.8</STL>
+  </row>
+  <row>
+    <PLAYER_ID>1627739</PLAYER_ID>
+    <PLAYER>Kris Dunn</PLAYER>
+    <TEAM>LAC</TEAM>
+    <STL>1.8</STL>
+  </row>
+</data>

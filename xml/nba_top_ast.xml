@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <row>
+    <PLAYER_ID>1629027</PLAYER_ID>
+    <PLAYER>Trae Young</PLAYER>
+    <TEAM>ATL</TEAM>
+    <AST>11.5</AST>
+  </row>
+  <row>
+    <PLAYER_ID>203999</PLAYER_ID>
+    <PLAYER>Nikola Jokić</PLAYER>
+    <TEAM>DEN</TEAM>
+    <AST>10.6</AST>
+  </row>
+  <row>
+    <PLAYER_ID>1630595</PLAYER_ID>
+    <PLAYER>Cade Cunningham</PLAYER>
+    <TEAM>DET</TEAM>
+    <AST>9.3</AST>
+  </row>
+  <row>
+    <PLAYER_ID>1630169</PLAYER_ID>
+    <PLAYER>Tyrese Haliburton</PLAYER>
+    <TEAM>IND</TEAM>
+    <AST>8.9</AST>
+  </row>
+  <row>
+    <PLAYER_ID>2544</PLAYER_ID>
+    <PLAYER>LeBron James</PLAYER>
+    <TEAM>LAL</TEAM>
+    <AST>8.5</AST>
+  </row>
+</data>

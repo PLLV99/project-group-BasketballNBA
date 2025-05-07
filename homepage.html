@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home- Coders Basketball</title>
+  <link rel="stylesheet" href="/styles/normalize.css">
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!-- bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="/styles/homepage.css">
+  <link rel="stylesheet" href="/styles/shared.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="images/nba_logo.svg" alt="NBA Logo" class="navbar-logo me-2">
+        <span>Basketball Hub</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="homepage.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="scores.html">Scores</a></li>
+          <li class="nav-item"><a class="nav-link" href="schedule.html">Schedule</a></li>
+          <li class="nav-item"><a class="nav-link" href="standings.html">Standings</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-4">
+    <!-- News Carousel -->
+    <div class="row mt-4">
+      <!-- 左侧新闻轮播 -->
+      <div class="col-lg-8">
+        <div id="newsCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#newsCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+              aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#newsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#newsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#newsCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <!-- item -->
+            <div class="carousel-item active">
+              <img src="images/news/allstars.jpg" class="d-block w-100" alt="News 1">
+            </div>
+            <!-- item -->
+            <div class="carousel-item">
+              <img src="images/news/carry.png" class="d-block w-100" alt="News 2">
+            </div>
+            <!-- item -->
+            <div class="carousel-item">
+              <img src="images/news/Jokic.png" class="d-block w-100" alt="News 3">
+            </div>
+            <!-- item -->
+            <div class="carousel-item">
+              <img src="images/news/77.png" class="d-block w-100" alt="News 3">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#newsCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#newsCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h5 class="mb-0">Upcoming Games</h5>
+          </div>
+          <div class="card-body p-0">
+            <div class="schedule-list" id="upcomingGames">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="mt-5">
+      <div class="container">
+        <h2 class="mb-4 text-center">Players Season Leaders</h2>
+        <div class="row">
+          <!-- Points Per Game -->
+          <div class="col-md-6 mb-4">
+            <div class="card-header">
+              <h5>Points Per Game</h5>
+            </div>
+            <div class="card-body p-0">
+              <table class="table mb-0" id="pointsTable">
+                <tbody>
+                  <!-- <tr>
+                    <td>1.</td>
+                    <td><a href="/player_stats.html?pId=4278073">Shai Gilgeous-Alexander</a> <small>(OKC)</small></td>
+                    <td>32.5</td>
+                  </tr> -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Rebounds Per Game -->
+          <div class="col-md-6 mb-4">
+            <div class="card-header">
+              <h5>Rebounds Per Game</h5>
+            </div>
+            <div class="card-body p-0">
+              <table class="table mb-0">
+                <tbody>
+                  <tr>
+                    <td>1.</td>
+                    <td><a href="/player_stats.html?pId=1627734">Domantas Sabonis</a> <small>(SAC)</small></td>
+                    <td>14.6</td>
+                  </tr>
+                  <tr>
+                    <td>2.</td>
+                    <td><a href="/player_stats.html?pId=1626157">Karl-Anthony Towns</a> <small>(NYK)</small></td>
+                    <td>13.4</td>
+                  </tr>
+                  <tr>
+                    <td>3.</td>
+                    <td><a href="/player_stats.html?pId=1627826">Ivica Zubac</a> <small>(LAC)</small></td>
+                    <td>12.6</td>
+                  </tr>
+                  <tr>
+                    <td>4.</td>
+                    <td><a href="/player_stats.html?pId=203999">Nikola Jokić</a> <small>(DEN)</small></td>
+                    <td>12.6</td>
+                  </tr>
+                  <tr>
+                    <td>5.</td>
+                    <td><a href="/player_stats.html?pId=203507">Giannis Antetokounmpo</a> <small>(MIL)</small></td>
+                    <td>12.2</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Assists Per Game -->
+          <div class="col-md-6 mb-4">
+            <div class="card-header">
+              <h5>Assists Per Game</h5>
+            </div>
+            <div class="card-body p-0">
+              <table class="table mb-0">
+                <tbody>
+                  <tr>
+                    <td>1.</td>
+                    <td><a href="/player_stats.html?pId=1629027">Trae Young</a> <small>(ATL)</small></td>
+                    <td>11.5</td>
+                  </tr>
+                  <tr>
+                    <td>2.</td>
+                    <td><a href="/player_stats.html?pId=203999">Nikola Jokić</a> <small>(DEN)</small></td>
+                    <td>10.2</td>
+                  </tr>
+                  <tr>
+                    <td>3.</td>
+                    <td><a href="/player_stats.html?pId=1630595">Cade Cunningham</a> <small>(DET)</small></td>
+                    <td>9.4</td>
+                  </tr>
+                  <tr>
+                    <td>4.</td>
+                    <td><a href="/player_stats.html?pId=2544">LeBron James</a> <small>(LAL)</small></td>
+                    <td>9.0</td>
+                  </tr>
+                  <tr>
+                    <td>5.</td>
+                    <td><a href="/player_stats.html?pId=201935">James Harden</a> <small>(LAC)</small></td>
+                    <td>8.6</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Blocks Per Game -->
+          <div class="col-md-6 mb-4">
+            <div class="card-header">
+              <h5>Blocks Per Game</h5>
+            </div>
+            <div class="card-body p-0">
+              <table class="table mb-0">
+                <tbody>
+                  <tr>
+                    <td>1.</td>
+                    <td><a href="/player_stats.html?pId=1641705">Victor Wembanyama</a> <small>(SAS)</small></td>
+                    <td>3.8</td>
+                  </tr>
+                  <tr>
+                    <td>2.</td>
+                    <td><a href="/player_stats.html?pId=1631117">Walker Kessler</a> <small>(UTA)</small></td>
+                    <td>2.4</td>
+                  </tr>
+                  <tr>
+                    <td>3.</td>
+                    <td><a href="/player_stats.html?pId=203076">Anthony Davis</a> <small>(DAL)</small></td>
+                    <td>2.2</td>
+                  </tr>
+                  <tr>
+                    <td>4.</td>
+                    <td><a href="/player_stats.html?pId=201572">Brook Lopez</a> <small>(MIL)</small></td>
+                    <td>1.9</td>
+                  </tr>
+                  <tr>
+                    <td>5.</td>
+                    <td><a href="/player_stats.html?pId=1629655">Daniel Gafford</a> <small>(DAL)</small></td>
+                    <td>1.9</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Steals Per Game -->
+          <div class="col-md-6 mb-4">
+            <div class="card-header">
+              <h5>Steals Per Game</h5>
+            </div>
+            <div class="card-body p-0">
+              <table class="table mb-0">
+                <tbody>
+                  <tr>
+                    <td>1.</td>
+                    <td><a href="/player_stats.html?pId=1630700">Dyson Daniels</a> <small>(ATL)</small></td>
+                    <td>3.0</td>
+                  </tr>
+                  <tr>
+                    <td>2.</td>
+                    <td><a href="/player_stats.html?pId=1628983">Shai Gilgeous-Alexander</a> <small>(OKC)</small></td>
+                    <td>1.9</td>
+                  </tr>
+                  <tr>
+                    <td>3.</td>
+                    <td><a href="/player_stats.html?pId=1630178">Tyrese Maxey</a> <small>(PHI)</small></td>
+                    <td>1.9</td>
+                  </tr>
+                  <tr>
+                    <td>4.</td>
+                    <td><a href="/player_stats.html?pId=203999">Nikola Jokić</a> <small>(DEN)</small></td>
+                    <td>1.8</td>
+                  </tr>
+                  <tr>
+                    <td>5.</td>
+                    <td><a href="/player_stats.html?pId=1641717">Cason Wallace</a> <small>(OKC)</small></td>
+                    <td>1.8</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Player Stats Section -->
+    <!-- <section class="mt-5">
+      <h2 class="mb-4">Popular Player Stats</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="images/player1.jpg" class="card-img-top" alt="Player 1">
+            <div class="card-body">
+              <h5 class="card-title">Player Name 1</h5>
+              <p class="card-text">
+                Avg. Points: 25.3<br>
+                Rebounds: 8.1<br>
+                Assists: 6.4
+              </p>
+              <a href="player-detail.html" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="images/player2.jpg" class="card-img-top" alt="Player 2">
+            <div class="card-body">
+              <h5 class="card-title">Player Name 2</h5>
+              <p class="card-text">
+                Avg. Points: 22.1<br>
+                Rebounds: 7.3<br>
+                Assists: 5.6
+              </p>
+              <a href="player-detail.html" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="images/player3.jpg" class="card-img-top" alt="Player 3">
+            <div class="card-body">
+              <h5 class="card-title">Player Name 3</h5>
+              <p class="card-text">
+                Avg. Points: 20.7<br>
+                Rebounds: 9.0<br>
+                Assists: 4.8
+              </p>
+              <a href="player-detail.html" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+  </main>
+
+  <footer class="bg-dark text-white py-3">
+    <div class="container text-center">
+      <p>&copy; 2025 Basketball Hub. All rights reserved.</p>
+      <a href="#" class="text-white me-3">Privacy Policy</a>
+      <a href="#" class="text-white">Terms of Use</a>
+    </div>
+  </footer>
+  <!-- bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="script/homepage.js"></script>
+</body>
+
+</html>

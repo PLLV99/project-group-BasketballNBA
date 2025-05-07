@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <row>
+    <PLAYER_ID>1628983</PLAYER_ID>
+    <PLAYER>Shai Gilgeous-Alexander</PLAYER>
+    <TEAM>OKC</TEAM>
+    <PTS>32.8</PTS>
+  </row>
+  <row>
+    <PLAYER_ID>203507</PLAYER_ID>
+    <PLAYER>Giannis Antetokounmpo</PLAYER>
+    <TEAM>MIL</TEAM>
+    <PTS>30.9</PTS>
+  </row>
+  <row>
+    <PLAYER_ID>203999</PLAYER_ID>
+    <PLAYER>Nikola Jokić</PLAYER>
+    <TEAM>DEN</TEAM>
+    <PTS>28.9</PTS>
+  </row>
+  <row>
+    <PLAYER_ID>1630162</PLAYER_ID>
+    <PLAYER>Anthony Edwards</PLAYER>
+    <TEAM>MIN</TEAM>
+    <PTS>27.2</PTS>
+  </row>
+  <row>
+    <PLAYER_ID>1628369</PLAYER_ID>
+    <PLAYER>Jayson Tatum</PLAYER>
+    <TEAM>BOS</TEAM>
+    <PTS>27.2</PTS>
+  </row>
+</data>

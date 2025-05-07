@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <row>
+    <PLAYER_ID>1627734</PLAYER_ID>
+    <PLAYER>Domantas Sabonis</PLAYER>
+    <TEAM>SAC</TEAM>
+    <REB>14.1</REB>
+  </row>
+  <row>
+    <PLAYER_ID>1626157</PLAYER_ID>
+    <PLAYER>Karl-Anthony Towns</PLAYER>
+    <TEAM>NYK</TEAM>
+    <REB>13.3</REB>
+  </row>
+  <row>
+    <PLAYER_ID>203999</PLAYER_ID>
+    <PLAYER>Nikola Jokić</PLAYER>
+    <TEAM>DEN</TEAM>
+    <REB>12.9</REB>
+  </row>
+  <row>
+    <PLAYER_ID>1627826</PLAYER_ID>
+    <PLAYER>Ivica Zubac</PLAYER>
+    <TEAM>LAC</TEAM>
+    <REB>12.5</REB>
+  </row>
+  <row>
+    <PLAYER_ID>1631117</PLAYER_ID>
+    <PLAYER>Walker Kessler</PLAYER>
+    <TEAM>UTA</TEAM>
+    <REB>12.4</REB>
+  </row>
+</data>

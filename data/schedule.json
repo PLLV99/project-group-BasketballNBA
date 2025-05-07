@@ -1,0 +1,37 @@
+[
+  {
+    "date": "2025-04-09",
+    "time": "19:30",
+    "homeTeam": "Lakers",
+    "awayTeam": "Warriors",
+    "venue": "Crypto.com Arena"
+  },
+  {
+    "date": "2025-04-09",
+    "time": "20:00",
+    "homeTeam": "Celtics",
+    "awayTeam": "Bucks",
+    "venue": "TD Garden"
+  },
+  {
+    "date": "2025-04-09",
+    "time": "19:00",
+    "homeTeam": "Nuggets",
+    "awayTeam": "Suns",
+    "venue": "Ball Arena"
+  },
+  {
+    "date": " 2025-04-09",
+    "time": "18:30",
+    "homeTeam": "Heat",
+    "awayTeam": "76ers",
+    "venue": "Miami-Dade Arena"
+  },
+  {
+    "date": "2025-04-09",
+    "time": "20:30",
+    "homeTeam": "Clippers",
+    "awayTeam": "Kings",
+    "venue": "Crypto.com Arena"
+  }
+] 
