@@ -5,7 +5,7 @@
 # Member 3: Pirawich Patadee  
 
 # CHing Cheng
-# Homepage (Home): Responsible for designing and developing the homepage to ensure the display of the latest basketball news, highlights, and analyses.
+# Index (Home): Responsible for designing and developing the index page to ensure the display of the latest basketball news, highlights, and analyses.
 # Player Detailed Stats: Develops the feature providing detailed player statistics, such as points per game and rebounds.
 # Overall Website Design and User Experience
 
